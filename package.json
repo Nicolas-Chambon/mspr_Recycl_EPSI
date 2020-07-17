@@ -1,0 +1,41 @@
+{
+  "name": "mspr-recycle",
+  "version": "1.0.0",
+  "description": "Projet MSPR objets connectés pour recyclage de déchets",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deedidi27/mspr-connected-objects-recycle.git"
+  },
+  "author": "Delphine Tran, Sid Djilali Saiah, Nicolas Chambon, Antonin Delsol, Théo Bassignani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deedidi27/mspr-connected-objects-recycle/issues"
+  },
+  "homepage": "https://github.com/Deedidi27/mspr-connected-objects-recycle#readme",
+  "dependencies": {
+    "@babel/register": "^7.9.0",
+    "aws-sdk": "^2.684.0",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.3",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.0",
+    "validator": "^13.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "mocha": "^7.1.2",
+    "nodemon": "^2.0.3",
+    "oracledb": "^4.2.0",
+    "supertest": "^4.0.2"
+  }
+}
